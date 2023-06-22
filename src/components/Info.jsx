@@ -9,6 +9,13 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 export default function Info() {
+
+  const linkednURL = 'www.linkedin.com/in/onurtüfekci';
+
+  const linkednOpen = () => {
+    window.open(linkednURL, '_blank');
+  };
+
    
   return (
     <div className="info">
@@ -20,7 +27,7 @@ export default function Info() {
         <button className="email">
           <FontAwesomeIcon icon={faEnvelope} style={{marginRight:"5px"}} /> Email
         </button>
-        <button className="linkedn">
+        <button onClick={linkednOpen} className="linkedn">
         <FontAwesomeIcon icon={faLinkedin} style={{color:"#ffffff",marginRight:"5px"}} />
            Linkedn
         </button>
