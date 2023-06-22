@@ -18,6 +18,10 @@ export default function Info() {
     window.open(linkednUrl, '_blank');
   };
 
+  const sendEmail = () => {
+    window.location.href = "mailto:onurtufekci61@gmail.com";
+  };
+
    
   return (
     <div className="info">
@@ -26,7 +30,7 @@ export default function Info() {
       <h4 className="occupation">Frontend Developer</h4>
       <p className="website"><a href="https://coderonur.netlify.app/">onurs.website</a> </p>
       <div className="buttons">
-        <button className="email">
+        <button onClick={sendEmail} className="email">
           <FontAwesomeIcon icon={faEnvelope} style={{marginRight:"5px"}} /> Email
         </button>
         <button onClick={linkednOpen} className="linkedn">
