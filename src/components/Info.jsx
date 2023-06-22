@@ -10,10 +10,12 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Info() {
 
-  const linkednURL = 'www.linkedin.com/in/onurtüfekci';
+  // const linkednURL = 'www.linkedin.com/in/onurtüfekci';
+
+  const linkednUrl = "https://www.linkedin.com/in/onurtüfekci"
 
   const linkednOpen = () => {
-    window.open(linkednURL, '_blank');
+    window.open(linkednUrl, '_blank');
   };
 
    
