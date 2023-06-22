@@ -7,7 +7,7 @@ This is a basic businesscard built using Vite, React, and FontAwesome.
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/my-portfolio-website.git
+git clone https://github.com/onurtufekci34/digitalbusinescard.git
 
 3. Navigate to the project directory:
 
