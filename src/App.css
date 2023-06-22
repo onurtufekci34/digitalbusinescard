@@ -73,7 +73,19 @@ button{
   border-radius: 0 0 20px 20px;
   
 }
-a{
+.website>a{
   text-decoration: none;
   color: white;
+}
+
+.website>a:hover{
+  color:rgb(220, 193, 247);
+}
+
+.linkedn:hover{
+  background-color: #5016e8;
+}
+
+.email:hover{
+  background-color: rgb(156, 156, 156);
 }
